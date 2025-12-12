@@ -1,0 +1,31 @@
+body {
+  background-color: rgb(211, 255, 184);
+}
+.grid-container {
+  display: grid;
+  grid-auto-columns: auto;
+  grid-auto-rows: 30vh;
+  gap: 12px;
+  grid-template-areas:
+    "a a b c"
+    "d d e e"
+    "d d f f";
+}
+.item {
+  background-color: rgb(0, 162, 255);
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+  border-radius: 24px;
+}
+@media (max-width: 56em) {
+  .grid-container {
+    grid-template-areas:
+      "a a"
+      "d d"
+      "d d"
+      "b c"
+      "e e"
+      "f f";
+  }
+}

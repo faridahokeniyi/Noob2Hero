@@ -1,0 +1,41 @@
+body {
+  background-color: rgb(211, 255, 184);
+}
+.grid-container {
+  display: grid;
+  grid-auto-columns: 60px;
+  grid-auto-rows: 20px;
+  gap: 12px;
+  grid-template-areas:
+    "a a a b b b b b c c c c d d d e e e e e"
+    "a a a b b b b b c c c c d d d e e e e e"
+    "a a a b b b b b c c c c d d d e e e e e"
+    "a a a b b b b b c c c c d d d e e e e e"
+    "a a a b b b b b f f f f g g g e e e e e"
+    "a a a b b b b b f f f f g g g e e e e e"
+    "h h h b b b b b f f f f g g g e e e e e"
+    "h h h b b b b b f f f f g g g e e e e e"
+    "h h h b b b b b i i i i g g g e e e e e"
+    "h h h b b b b b i i i i g g g e e e e e"
+    "h h h b b b b b i i i i g g g e e e e e"
+    "h h h b b b b b i i i i g g g e e e e e"
+    "j j j j j k k k i i i i l l l l l m m m"
+    "j j j j j k k k i i i i l l l l l m m m"
+    "j j j j j k k k i i i i l l l l l m m m"
+    "j j j j j k k k i i i i l l l l l m m m"
+    "j j j j j k k k n n n n l l l l l o o o"
+    "j j j j j k k k n n n n l l l l l o o o"
+    "j j j j j p p p n n n n l l l l l o o o"
+    "j j j j j p p p n n n n l l l l l o o o"
+    "j j j j j p p p q q q q l l l l l r r r"
+    "j j j j j p p p q q q q l l l l l r r r"
+    "j j j j j p p p q q q q l l l l l r r r"
+    "j j j j j p p p q q q q l l l l l r r r";
+}
+.item {
+  background-color: rgb(0, 162, 255);
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+  border-radius: 24px;
+}
