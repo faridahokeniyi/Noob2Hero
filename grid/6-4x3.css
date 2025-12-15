@@ -3,8 +3,11 @@ body {
 }
 .grid-container {
   display: grid;
-  grid-auto-columns: auto;
-  grid-auto-rows: 30vh;
+  /* grid-auto-columns: 20rem;
+  grid-auto-rows: 20rem; */
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  height: 98vh;
   gap: 12px;
   grid-template-areas:
     "a a b c"
@@ -16,7 +19,7 @@ body {
   color: white;
   font-size: 2rem;
   text-align: center;
-  border-radius: 24px;
+  border-radius: 28px;
 }
 @media (max-width: 56em) {
   .grid-container {
