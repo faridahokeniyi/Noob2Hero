@@ -1,0 +1,57 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Nunito", sans-serif;
+  box-sizing: border-box;
+}
+.container {
+  width: 100%;
+  min-height: 100vh;
+  /* background: linear-gradient(135deg, #ff9fb2, #df2935); */
+  background-color: #302d2c;
+  color: #fbfff4;
+  padding-top: 4%;
+  padding-left: 10%;
+}
+button {
+  padding: 8px 20px;
+  border-radius: 8px;
+  border: 2px solid #fbfff4;
+  background-color: #dcf482;
+  color: #302d2c;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #fbfff4;
+  color: #dcf482;
+  border: 2px solid #dcf482;
+}
+.input-box {
+  position: relative;
+  width: 100%;
+  max-width: 500px;
+  min-height: 150px;
+  background: #fbfff4;
+  color: #302d2c;
+  padding: 20px;
+  margin: 20px 0px;
+  outline: #dcf482;
+  border-radius: 10px;
+}
+.input-box button {
+  background-color: #df2935;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+.input-box button:hover {
+  /* background-color: #ff9fb2; */
+  color: #ff9fb2;
+  border: 2px solid #ff9fb2;
+}
+.notes-container {
+  border: 1px solid #dcf482;
+}
