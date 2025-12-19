@@ -1,0 +1,38 @@
+.note-box {
+  position: relative;
+  width: 100%;
+  max-width: 500px;
+  min-height: 150px;
+  /* background: #cbe49e; */
+}
+
+textarea {
+  width: 100%;
+  max-width: 500px;
+  min-height: 150px;
+  background: #fbfff4;
+  color: #302d2c;
+  font-size: 16px;
+  padding: 20px;
+  margin: 20px 0px;
+  outline: #dcf482;
+  border-radius: 10px;
+}
+.note-box:focus {
+  border: 1px solid #ff9fb2;
+}
+.note-box button {
+  background-color: #df2935;
+  position: absolute;
+  bottom: 30px;
+  right: 15px;
+  cursor: pointer;
+}
+.note-box button:hover {
+  /* background-color: #ff9fb2; */
+  color: #ff9fb2;
+  border: 2px solid #ff9fb2;
+}
+.notes-containerr {
+  border: 1px solid #ff9fb2;
+}
